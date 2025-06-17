@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main-cont h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    margin: 20px;
+    transition: transform 0.3s ease;
+}
+.main-cont h1:hover{
+    transform:translateY(-10px);
+}
+.main-cont{
+    height: 500px;
+    width: 500px;
+    border:1px solid lightgray;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main-cont:hover{
+    transform:scale(1.05);
+    border:none;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.choice{
+    border: 5px solid lightgray;
+    border-radius: 50%;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+.choice:hover{
+     transform:scale(1.05); 
+}
+img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+img:hover{
+transform:scale(1.05);
+}
+.score-board{
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 350px;
+    border-radius: 5px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+.score-board:hover{
+transform:scale(1.05); 
+box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+.your{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.your{
+    transition: transform 0.3s ease; 
+}
+.your:hover{
+transform:scale(1.05);
+}
+.comp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comp{
+    transition: transform 0.3s ease; 
+}
+.comp:hover{
+transform:scale(1.05);
+}
+.msg-cont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 20px;
+    transition: transform 0.3s ease; 
+}
+.msg-cont:hover{
+    transform:scale(1.05);
+}
+.res{
+    width: 175px;
+    height: 50px;
+    border-radius: 999px;
+    border: 1px solid lightgray;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+.res:hover{
+    transform:scale(1.05);
+    background-color: black;
+    color: white;
+}
